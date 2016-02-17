@@ -1,13 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<jsp:forward page="main.jsp"/>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 </head>
-<body>
-
-</body>
+<frameset rows="*" frameSpacing="0px" border="0">
+<frame name="main" src="main.jsp" scrolling="yes" frameBorder="0">
+</frameset>
 </html>
